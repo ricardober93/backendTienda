@@ -12,7 +12,7 @@ const usuarioEsquema = new Schema({
     email: { type: String },
     edad: {  type: Number },
     imagen: { type: String },
-    rol: { type: String }
+    rol: { type: String },
 
 }, {
     timestamps: true

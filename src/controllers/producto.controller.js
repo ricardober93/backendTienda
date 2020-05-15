@@ -82,4 +82,9 @@ ProductoCTR.eliminarProducto = async (req, res) => {
 };
 
 
+ProductoCTR.compraProducto = async (req, res) => {
+
+}
+
+
 module.exports = ProductoCTR;

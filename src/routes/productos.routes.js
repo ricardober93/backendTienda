@@ -6,7 +6,8 @@ const {
     detalleProducto,
     crearProducto,
     editarProducto,
-    eliminarProducto
+    eliminarProducto,
+    compraProducto
 } = require('../controllers/producto.controller');
 
 
@@ -22,9 +23,7 @@ routes.delete('/producto/:id' ,eliminarProducto);
 
 
 
-routes.post('/pago/' , (req, res)=> {
-    res.send('pago')
-});
+routes.post('/compra/' , compraProducto);
 
 
 module.exports = routes;
